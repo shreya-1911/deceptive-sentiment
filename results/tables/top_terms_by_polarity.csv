@@ -1,0 +1,61 @@
+polarity,points_to,rank,term,coefficient
+positive,deceptive,1,chicago,4.1362
+positive,deceptive,2,my,3.9493
+positive,deceptive,3,i,3.0471
+positive,deceptive,4,my husband,2.4453
+positive,deceptive,5,husband,2.3977
+positive,deceptive,6,my stay,2.3821
+positive,deceptive,7,vacation,2.2633
+positive,deceptive,8,luxury,2.1794
+positive,deceptive,9,while,2.0979
+positive,deceptive,10,amazing,2.0737
+positive,deceptive,11,husband and,2.0667
+positive,deceptive,12,spa,2.0407
+positive,deceptive,13,experience,1.9661
+positive,deceptive,14,looking,1.9612
+positive,deceptive,15,family,1.9481
+positive,truthful,1,location,-3.2883
+positive,truthful,2,floor,-2.7136
+positive,truthful,3,on,-2.5466
+positive,truthful,4,bathroom,-2.5214
+positive,truthful,5,on the,-2.4241
+positive,truthful,6,small,-2.3116
+positive,truthful,7,rate,-2.2355
+positive,truthful,8,we,-2.13
+positive,truthful,9,large,-1.9486
+positive,truthful,10,street,-1.9369
+positive,truthful,11,2,-1.9285
+positive,truthful,12,3,-1.8347
+positive,truthful,13,quiet,-1.7987
+positive,truthful,14,but,-1.7747
+positive,truthful,15,excellent,-1.7177
+negative,deceptive,1,chicago,4.6462
+negative,deceptive,2,luxury,2.8312
+negative,deceptive,3,seemed,2.8287
+negative,deceptive,4,when i,2.8081
+negative,deceptive,5,at the,2.5733
+negative,deceptive,6,my,2.5133
+negative,deceptive,7,i,2.312
+negative,deceptive,8,the food,2.2996
+negative,deceptive,9,and i,2.2795
+negative,deceptive,10,my room,2.2479
+negative,deceptive,11,recently,2.2418
+negative,deceptive,12,i was,2.1048
+negative,deceptive,13,i will,2.0112
+negative,deceptive,14,food,1.9911
+negative,deceptive,15,with my,1.9423
+negative,truthful,1,location,-2.437
+negative,truthful,2,we,-2.4061
+negative,truthful,3,4,-2.3213
+negative,truthful,4,2,-2.2177
+negative,truthful,5,great,-1.9449
+negative,truthful,6,small,-1.9418
+negative,truthful,7,called,-1.8741
+negative,truthful,8,floor,-1.8428
+negative,truthful,9,elevators,-1.754
+negative,truthful,10,construction,-1.7454
+negative,truthful,11,elevator,-1.6575
+negative,truthful,12,open,-1.6559
+negative,truthful,13,is,-1.5793
+negative,truthful,14,star,-1.5726
+negative,truthful,15,bed,-1.5637

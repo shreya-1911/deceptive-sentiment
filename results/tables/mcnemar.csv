@@ -1,0 +1,10 @@
+model_a,model_b,subset,a_right_b_wrong,a_wrong_b_right,p_value
+m1_tfidf,m2_minilm,all,31,12,0.0054
+m1_tfidf,m2_minilm,positive,16,7,0.0931
+m1_tfidf,m2_minilm,negative,15,5,0.0414
+m1_tfidf,m3_tfidf_vader,all,3,3,1.0
+m1_tfidf,m3_tfidf_vader,positive,2,2,1.0
+m1_tfidf,m3_tfidf_vader,negative,1,1,1.0
+m2_minilm,m3_tfidf_vader,all,12,31,0.0054
+m2_minilm,m3_tfidf_vader,positive,7,16,0.0931
+m2_minilm,m3_tfidf_vader,negative,5,15,0.0414

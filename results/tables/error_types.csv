@@ -1,0 +1,7 @@
+model,polarity,n,false_positives,false_negatives,errors
+m1_tfidf,positive,120,9,4,13
+m1_tfidf,negative,120,6,3,9
+m2_minilm,positive,120,13,9,22
+m2_minilm,negative,120,10,9,19
+m3_tfidf_vader,positive,120,8,5,13
+m3_tfidf_vader,negative,120,6,3,9

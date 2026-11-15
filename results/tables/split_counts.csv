@@ -1,0 +1,5 @@
+partition,deceptive_negative,deceptive_positive,truthful_negative,truthful_positive,All
+train,280,280,277,280,1117
+val,60,60,59,60,239
+test,60,60,60,60,240
+All,400,400,396,400,1596

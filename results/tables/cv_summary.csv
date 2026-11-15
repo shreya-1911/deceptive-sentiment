@@ -1,0 +1,4 @@
+model,all_mean,all_sd,positive_mean,positive_sd,negative_mean,negative_sd,neg_minus_pos_mean,neg_minus_pos_sd,folds_negative_higher,folds
+m1_tfidf,0.897,0.0181,0.9023,0.0203,0.8916,0.0284,-0.0107,0.0336,10,25
+m2_minilm,0.8156,0.0232,0.8226,0.0289,0.8084,0.0303,-0.0142,0.0365,10,25
+m3_tfidf_vader,0.8964,0.0184,0.9058,0.0181,0.8869,0.0275,-0.019,0.0284,7,25

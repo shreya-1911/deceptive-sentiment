@@ -1,0 +1,7 @@
+model,train_on,test_on,n_train,n_test,accuracy,macro_f1
+m1_tfidf,positive,negative,680,676,0.7633,0.7588
+m1_tfidf,negative,positive,676,680,0.8029,0.7993
+m2_minilm,positive,negative,680,676,0.645,0.6216
+m2_minilm,negative,positive,676,680,0.6838,0.6773
+m3_tfidf_vader,positive,negative,680,676,0.5577,0.4637
+m3_tfidf_vader,negative,positive,676,680,0.7,0.6763

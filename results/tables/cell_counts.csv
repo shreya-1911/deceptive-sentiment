@@ -1,0 +1,4 @@
+deceptive,negative,positive,All
+deceptive,400,400,800
+truthful,400,400,800
+All,800,800,1600

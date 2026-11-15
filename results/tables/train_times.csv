@@ -1,0 +1,5 @@
+model,train_seconds,embedding_ms_per_review
+m0_majority,0.064,
+m1_tfidf,0.512,
+m2_minilm,0.16,34.585
+m3_tfidf_vader,0.61,

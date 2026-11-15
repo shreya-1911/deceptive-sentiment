@@ -1,0 +1,42 @@
+# Single source of truth for paths and experiment settings.
+seed: 42
+
+paths:
+  raw_data: data/raw/deceptive-opinion.csv
+  splits: data/splits/split_seed42.csv
+  cache: data/cache
+  models: models
+  tables: results/tables
+  figures: results/figures
+  predictions: results/predictions
+
+split:
+  train: 0.70
+  val: 0.15
+  test: 0.15
+  stratify_on: [deceptive, polarity]
+  # 4 exact duplicate pairs exist, all truthful_negative (same hotel each).
+  # true  -> keep the first copy of each (1,596 reviews)
+  # false -> keep all 1,600 but put each pair in the same partition
+  drop_duplicates: true
+
+embedding_model: sentence-transformers/all-MiniLM-L6-v2   # MiniLM, not BART/RoBERTa
+embedding_batch_size: 32
+
+# Hyperparameter grids, searched on the validation set (metric: macro-F1).
+# Ties go to the earlier entry in grid order.
+models:
+  m1_tfidf:                 # TF-IDF unigrams+bigrams + logistic regression
+    C: [0.01, 0.1, 1, 10, 100]
+    min_df: [1, 2]
+    sublinear_tf: [false, true]
+  m2_minilm:                # MiniLM sentence embeddings + logistic regression
+    C: [0.01, 0.1, 1, 10, 100]
+  m3_tfidf_vader:           # Model 1's best TF-IDF settings + VADER scores
+    C: [0.01, 0.1, 1, 10, 100]
+    vader_weight: [0.1, 0.3, 1.0]
+
+evaluation:
+  positive_class: deceptive   # precision/recall reported for this class
+  bootstrap_resamples: 1000
+  ci_level: 0.95

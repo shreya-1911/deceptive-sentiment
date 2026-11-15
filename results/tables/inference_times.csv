@@ -1,0 +1,5 @@
+model,inference_seconds,inference_ms_per_review
+m0_majority,0.0025,0.0106
+m1_tfidf,0.0936,0.3898
+m2_minilm,0.0076,0.0316
+m3_tfidf_vader,0.0545,0.227

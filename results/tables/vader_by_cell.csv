@@ -1,0 +1,5 @@
+cell,vader_neg,vader_neu,vader_pos,vader_compound,vader_abs_compound
+deceptive_negative,0.085,0.834,0.081,-0.052,0.711
+deceptive_positive,0.011,0.752,0.237,0.961,0.961
+truthful_negative,0.073,0.834,0.093,0.176,0.713
+truthful_positive,0.02,0.766,0.214,0.929,0.94

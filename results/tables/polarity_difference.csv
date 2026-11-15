@@ -1,0 +1,4 @@
+model,diff,diff_lo,diff_hi,ci_excludes_zero
+m1_tfidf,-0.0335,-0.1032,0.0416,False
+m2_minilm,-0.0252,-0.1255,0.0663,False
+m3_tfidf_vader,-0.0334,-0.1082,0.0416,False

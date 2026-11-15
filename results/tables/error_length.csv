@@ -1,0 +1,4 @@
+model,mean_words_correct,mean_words_wrong,n_wrong
+m1_tfidf,143.5,151.8,22
+m2_minilm,145.4,138.8,41
+m3_tfidf_vader,144.9,137.7,22
