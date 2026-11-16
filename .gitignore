@@ -8,19 +8,12 @@ __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
 
-# Dataset: no clear redistribution licence, so users download it themselves
-data/raw/*
-!data/raw/.gitkeep
+
 
 # Large or regenerable outputs
-models/*.joblib
 data/cache/
 
 # OS / editor clutter
 .DS_Store
 Thumbs.db
 
-# Files containing review text from the dataset
-results/predictions/
-results/tables/error_examples.csv
-results/tables/duplicates.csv

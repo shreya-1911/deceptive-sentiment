@@ -28,18 +28,24 @@ scores are then cached in `data/cache/`.
 
 ## Data
 
-The dataset is not included in this repository.
+## Data
 
-1. Download `deceptive-opinion.csv` from Kaggle: https://www.kaggle.com/datasets/rtatman/deceptive-opinion-spam-corpus/data
-2. Place it at `data/raw/deceptive-opinion.csv`.
+The dataset is included, so no separate download is needed:
+`data/raw/deceptive-opinion.csv`, the Deceptive Opinion Spam Corpus v1.4
+(Ott et al., 2011; 2013), as downloaded unchanged from Kaggle:
+https://www.kaggle.com/datasets/rtatman/deceptive-opinion-spam-corpus
 
-The dataset is licensed under CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike),
-as stated on the Kaggle page, which asks users to cite the source papers
-(Ott et al., 2011; 2013), cited below. It is not redistributed in this repository.
-Files that would contain review text (per-review predictions, error examples and
-duplicate listings) are also excluded; run the scripts to regenerate them locally.
+It is licensed under **CC BY-NC-SA 4.0** (Attribution-NonCommercial-ShareAlike), as
+stated on the Kaggle page, and is redistributed here under the same licence for
+non-commercial academic use. Full attribution: `data/raw/LICENSE.md`. The same licence
+applies to result files that contain review text (per-review predictions, error
+examples and duplicate listings).
+
 The `source` column is dropped on load because it reveals the label (all deceptive
 reviews come from Mechanical Turk).
+
+Trained models are included in `models/` (scikit-learn pipelines saved with joblib),
+so `05_evaluate.py` can be rerun directly. `04_train_final.py` regenerates them.
 
 ## Run order
 
