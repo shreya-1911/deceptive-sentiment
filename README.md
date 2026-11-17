@@ -1,6 +1,6 @@
 # Investigating the Effect of Sentiment Polarity on AI-Based Fake Review Detection
 
-Final-year BSc Computer Science with AI — Advanced AI Applications coursework.
+Final-year BSc Computer Science with AI - Advanced AI Applications coursework.
 
 Extends Alawadh et al. (2023) by evaluating frequency-based (TF-IDF) and semantic
 (sentence-embedding) deception classifiers separately on positive and negative hotel
@@ -25,8 +25,6 @@ to avoid the 260-character path limit during installation.
 The first run of `03_tune.py` downloads the MiniLM model (about 90 MB) from
 Hugging Face, so an internet connection is needed once. Embeddings and VADER
 scores are then cached in `data/cache/`.
-
-## Data
 
 ## Data
 
